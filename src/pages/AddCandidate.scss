@@ -1,0 +1,79 @@
+.cont-form{
+  
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    color: rgb(59,41,171);
+    
+    h2{
+        text-align: start;
+        margin: 20px;
+    }
+}
+.cont-inputs{
+    display: flex;
+    justify-content: space-between;
+    
+    div{
+        padding: 20px;
+
+        p{
+            margin-bottom: 10px;
+            text-align: start;
+            font-weight: 500;
+            font-size: 14px;
+        }
+        input{
+            width: 300px;
+            border-radius: 5px;
+            border: 0.5px solid grey;
+            background-color: rgb(252, 250, 250);
+        }
+    }
+}
+.cont-input-file{
+
+    padding: 20px;
+    text-align: start;
+
+    p{
+        margin-bottom: 10px;
+        text-align: start;
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    input[type="file"]{
+        width: 300px;
+        border-radius: 5px;
+        border: 0.5px solid grey;
+        background-color: rgb(252, 250, 250);
+    }
+    label{
+        border-bottom: 2px solid rgb(59,41,171);
+        margin-left: 5px;
+    }
+}
+.cont-button{
+    margin-top: 50px;
+    text-align: start;
+    button{
+        border-radius: 5px;
+        width: 200px;
+        margin: 20px;
+       background-color:rgb(59,41,171);
+       color: white;
+    }
+}
+.cont-title{
+    display: flex;
+    justify-content: space-between;
+    button{
+        border-radius: 5px;
+        width: 70px;
+        margin: 20px;
+       background-color:rgb(59,41,171);
+       color: white;
+    }
+}

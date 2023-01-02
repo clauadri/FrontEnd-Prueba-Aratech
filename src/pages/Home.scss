@@ -1,0 +1,42 @@
+.cont-home{
+    background-color: rgb(233, 232, 241);
+    min-height: 900px;
+}
+.home{
+    display: flex;
+    justify-content: space-evenly;
+    
+    div{
+        
+        padding: 30px;
+        text-align: center;
+        display: flex;
+    
+        a{
+            text-decoration: none;
+            font-size: 22px;
+            color:white;
+            background-color: rgb(59,41,171);
+            padding: 20px;
+            border: 0.5px solid white;
+        }
+    }
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(59,41,171);
+    height: 300px;
+    justify-content: center;
+    border: 0.5px solid white;
+    margin: 50px;
+    h3{
+    color: white;
+    }
+    a{
+        text-decoration: none;
+        padding: 10px;
+        color:white;
+    }
+}
+

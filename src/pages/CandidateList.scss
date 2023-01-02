@@ -1,0 +1,27 @@
+.cont-table{
+    margin: 20px;
+    th{
+        color:rgb(59,41,171);
+        background-color: rgb(252, 250, 250);
+    }
+    td{
+        font-size: 14px;
+    }
+    h2{
+        
+    text-align: start;
+    margin: 20px;
+    color: rgb(59,41,171);
+    }
+}
+.cont-title{
+    display: flex;
+    justify-content: space-between;
+    button{
+        border-radius: 5px;
+        width: 70px;
+        margin: 20px;
+       background-color:rgb(59,41,171);
+       color: white;
+    }
+}
